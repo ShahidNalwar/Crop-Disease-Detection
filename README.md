@@ -28,15 +28,15 @@ types and 27 disease classes.
 
 ## Architecture
 Crop leaf image input
-|
+ -->> 
 Image preprocessing
 (resize, normalize, augment)
-|
+ -->> 
 CNN Feature Extraction
 (Conv layers + MaxPooling)
-|
+ -->> 
 Dense Classification layers
-|
+ -->> 
 Disease class prediction
 
 ## Dataset
